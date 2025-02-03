@@ -1,5 +1,8 @@
 import Image from "next/image";
-import { Github, Server } from "lucide-react";
+import { Github, PanelsTopLeft, Podcast, Server } from "lucide-react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBlog, faBook } from '@fortawesome/free-solid-svg-icons';
+import { faDiscord, faQq, faTelegram } from '@fortawesome/free-brands-svg-icons';
 
 interface Server {
   name: string;
@@ -10,7 +13,13 @@ interface Server {
   links?: {
     downloads?: string[];
     "icon-GitHub"?: string;
-    "icon-jenkins"?: string;
+    "icon-website"?: string;
+    "icon-blog"?: string;
+    "icon-wiki"?: string;
+    "icon-discord"?: string;
+    "icon-QQ"?: string;
+    "icon-telegram"?: string;
+    "icon-shequ"?: string;
   };
 }
 
@@ -22,9 +31,8 @@ interface ServerProps {
 export default function ServerCard({ server, theme }: ServerProps) {
   return (
     <div
-      className={`rounded-lg shadow-lg overflow-hidden ${
-        theme === "dark" ? "bg-gray-800" : "bg-white"
-      }`}
+      className={`rounded-lg shadow-lg overflow-hidden ${theme === "dark" ? "bg-gray-800" : "bg-white"
+        }`}
     >
       <div className="p-4">
         <div className="flex items-center mb-4">
@@ -44,18 +52,17 @@ export default function ServerCard({ server, theme }: ServerProps) {
         <p className="text-sm mb-2">版本范围: {server.version_range || "无"}</p>
         <div className="flex flex-wrap gap-2 mb-4">
           {Array.isArray(server.links?.downloads) &&
-          server.links.downloads.length > 0 ? (
+            server.links.downloads.length > 0 ? (
             server.links.downloads.map((link, index) => (
               <a
                 key={index}
                 href={link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`text-sm px-2 py-1 rounded ${
-                  theme === "dark"
+                className={`text-sm px-2 py-1 rounded ${theme === "dark"
                     ? "bg-blue-600 hover:bg-blue-700"
                     : "bg-blue-100 hover:bg-blue-200"
-                }`}
+                  }`}
               >
                 下载 {index + 1}
               </a>
@@ -75,14 +82,74 @@ export default function ServerCard({ server, theme }: ServerProps) {
               <Github className="w-6 h-6" />
             </a>
           )}
-          {server.links?.["icon-jenkins"] && (
+          {server.links?.["icon-website"] && (
             <a
-              href={server.links["icon-jenkins"]}
+              href={server.links["icon-website"]}
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
             >
-              <Server className="w-6 h-6" />
+              <FontAwesomeIcon icon={faBlog} className="w-6 h-6" />
+            </a>
+          )}
+          {server.links?.["icon-blog"] && (
+            <a
+              href={server.links["icon-blog"]}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+            >
+              <PanelsTopLeft className="w-6 h-6" />
+            </a>
+          )}
+          {server.links?.["icon-discord"] && (
+            <a
+              href={server.links["icon-discord"]}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+            >
+              <FontAwesomeIcon icon={faDiscord} className="w-6 h-6" />
+            </a>
+          )}
+          {server.links?.["icon-wiki"] && (
+            <a
+              href={server.links["icon-wiki"]}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+            >
+              <FontAwesomeIcon icon={faBook} className="w-6 h-6" />
+            </a>
+          )}
+          {server.links?.["icon-QQ"] && (
+            <a
+              href={server.links["icon-QQ"]}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+            >
+              <FontAwesomeIcon icon={faQq} className="w-6 h-6" />
+            </a>
+          )}
+          {server.links?.["icon-telegram"] && (
+            <a
+              href={server.links["icon-telegram"]}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+            >
+              <FontAwesomeIcon icon={faTelegram} className="w-6 h-6" />
+            </a>
+          )}
+          {server.links?.["icon-shequ"] && (
+            <a
+              href={server.links["icon-shequ"]}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+            >
+              <Podcast className="w-6 h-6" />
             </a>
           )}
         </div>

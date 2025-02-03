@@ -9,7 +9,6 @@ servers:
     - http://ci.josephworks.net/job/Akarin/job/ver%252F1.12.2/
     - https://mirror.polars.cc/#/minecraft/core
     icon-GitHub: https://github.com/Akarin-project/Akarin
-    icon-jenkins: http://ci.josephworks.net/job/Akarin/job/ver%252F1.12.2/
   name: Akarin
   version_range: 1.12.2 - 1.15.2
   version_type: 插件端
@@ -22,7 +21,7 @@ servers:
     - https://www.fastmirror.net/#/download/Arclight
     - https://sync.mcsl.com.cn/core/Arclight
     - https://mirror.polars.cc/#/minecraft/core
-    icon-GitHub: https://github.com/softpak/HOSE
+    icon-GitHub: https://github.com/IzzelAliz/Arclight
   name: Arclight
   version_range: 1.14.2 - 1.20.4
   version_type: 混合端
@@ -65,7 +64,6 @@ servers:
     - https://www.fastmirror.net/#/download/BungeeCord
     icon-GitHub: https://github.com/SpigotMC/BungeeCord
     icon-website: https://www.spigotmc.org/go/bungeecord
-    icon-jenkins: https://ci.md-5.net/job/BungeeCord/""
     icon-wiki: https://www.spigotmc.org/wiki/bungeecord/
   name: BungeeCord
   version_range: '1.7'
@@ -93,7 +91,6 @@ servers:
     - https://github.com/Luohuayu/CatServer/releases
     icon-GitHub: https://github.com/Luohuayu/CatServer
     icon-website: https://catmc.org/
-    icon-jenkins: https://jenkins.rbqcloud.cn:30011/job/CatServer-1.16.5/lastSuccessfulBuild/
     icon-telegram: https://t.me/CatServer
   name: Catserver/LoliServer
   version_range: 1.18.2
@@ -210,7 +207,6 @@ servers:
     - https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/
     icon-GitHub: https://github.com/GeyserMC/Floodgate
     icon-website: https://geysermc.org/
-    icon-jenkins: https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/
     icon-wiki: https://geysermc.org/wiki/floodgate/S
   name: Floodgate
   version_range: 1.20.80 - 1.21.3
@@ -237,7 +233,6 @@ servers:
     icon-website: https://geysermc.org/
     icon-blog: https://geysermc.org/blog
     icon-discord: https://discord.gg/geysermc
-    icon-jenkins: ''
     icon-wiki: https://geysermc.org/wiki/geyser/
   name: Geyser
   version_range: 1.20.80 - 1.21.3
@@ -258,7 +253,6 @@ servers:
     - https://github.com/SimplyRin/HexaCord/releases
     icon-GitHub: https://github.com/SimplyRin/HexaCord/
     icon-website: https://hexagonmc.eu/
-    icon-jenkins: https://ci.simplyrin.net/job/HexaCord/
     icon-shequ: https://hexagonmc.eu/
   name: HexaCord
   version_range: 1.8 - 1.20
@@ -375,7 +369,6 @@ servers:
     icon-GitHub: https://github.com/CloudburstMC/Nukkit
     icon-website: https://cloudburstmc.org/
     icon-discord: https://discord.gg/5PzMkyK
-    icon-jenkins: https://ci.nukkitx.com/job/NukkitX/job/Nukkit/job/master
     icon-shequ: https://nukkitx.com/forums
     icon-wiki: https://nukkitx.com/wiki/nukkit
   name: NukkitX
@@ -388,7 +381,6 @@ servers:
     downloads:
     - https://ci.opencollab.dev//job/NukkitX/job/Nemisys/
     icon-GitHub: https://github.com/iTXTech/Nemisys
-    icon-jenkins: https://ci.opencollab.dev//job/NukkitX/job/Nemisys/
   name: Nemisys
   version_range: ''
   version_type: 群组端
@@ -543,7 +535,6 @@ servers:
     - https://hub.spigotmc.org/jenkins/job/BuildTools/
     icon-GitHub: https://github.com/orgs/SpigotMC/
     icon-website: https://www.spigotmc.org/
-    icon-jenkins: https://hub.spigotmc.org/jenkins/job/BuildTools/
     icon-wiki: https://www.spigotmc.org/wiki/index/
   name: Spigot
   version_range: ''
@@ -586,7 +577,6 @@ servers:
     - https://ci.sugarcanemc.org/job/Sugarcane
     icon-GitHub: https://github.com/SugarcaneMC/Sugarcane
     icon-website: https://sugarcanemc.org/
-    icon-jenkins: https://ci.sugarcanemc.org/job/Sugarcane
   name: Sugarcane
   version_range: 1.17.1 - 1.19
   version_type: 插件端
