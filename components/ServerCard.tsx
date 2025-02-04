@@ -48,7 +48,7 @@ export default function ServerCard({ server, theme }: ServerProps) {
             <p className="text-sm text-gray-500">{server.version_type}</p>
           </div>
         </div>
-        <p className="text-sm mb-4">{server.description}</p>
+        <p className="text-sm mb-4 whitespace-pre-wrap leading-tight">{server.description}</p>
         <p className="text-sm mb-2">版本范围: {server.version_range || "无"}</p>
         <div className="flex flex-wrap gap-2 mb-4">
           {Array.isArray(server.links?.downloads) &&

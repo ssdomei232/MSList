@@ -1,5 +1,5 @@
 servers:
-- description: "基于 Paper 进行优化的服务端，性能较好 \t\t\t支持 Bukkit/Spigot/Paper 插件"
+- description: "基于 Paper 进行优化的服务端，性能较好\n\n支持 Bukkit/Spigot/Paper 插件"
   image: /img/Akarin.png
   links:
     downloads:
@@ -12,8 +12,7 @@ servers:
   name: Akarin
   version_range: 1.12.2 - 1.15.2
   version_type: 插件端
-- description: "一个开源的我的世界服务器核心，它是为那些寻求一个轻量级、可扩展的我的世界服务器核心而设计的 \t\t\t支持 Forge 模组和 Bukkit\
-    \ 插件"
+- description: "一个开源的我的世界服务器核心，它是为那些寻求一个轻量级、可扩展的我的世界服务器核心而设计的\n\n支持 Forge 模组和 Bukkit "
   image: /img/Arclight.png
   links:
     downloads:
@@ -25,7 +24,7 @@ servers:
   name: Arclight
   version_range: 1.14.2 - 1.20.4
   version_type: 混合端
-- description: "一个稳定、优化、支持良好的 1.17 Paper 分支 \t\t\t支持 Bukkit/Spigot/Paper 插件"
+- description: "一个稳定、优化、支持良好的 1.17 Paper 分支\n\n支持 Bukkit/Spigot/Paper 插件"
   image: /img/Airplane.png
   links:
     downloads:
@@ -39,8 +38,7 @@ servers:
   name: Airplane
   version_range: '1.17'
   version_type: 插件端
-- description: "Mohist 团队的新作品,全新的探索,目前还在开发阶段,bug可能较多 \t\t\t支持 Fabric 模组和 Bukkit/Spigot/Paper\
-    \ 插件"
+- description: "Mohist 团队的新作品,全新的探索,目前还在开发阶段,bug可能较多\n\n支持 Fabric 模组和 Bukkit/Spigot/Paper 插件"
   image: /img/Banner.png
   links:
     downloads:
@@ -54,8 +52,7 @@ servers:
   name: Banner
   version_range: 1.19.4 - 1.20.4
   version_type: 混合端
-- description: "BungeeCord简称bc服,这是最经典的跨服代理核心之一，支持1.7及以上版本的Minecraft服务器。 \t\t\tBungeeCord\
-    \ 适合于希望构建经典跨服网络的玩家。"
+- description: "BungeeCord简称bc服,这是最经典的跨服代理核心之一，支持1.7及以上版本的Minecraft服务器\n\nBungeeCord 适合于希望构建经典跨服网络的玩家"
   image: /img/BungeeCord.png
   links:
     downloads:
@@ -67,9 +64,8 @@ servers:
     icon-wiki: https://www.spigotmc.org/wiki/bungeecord/
   name: BungeeCord
   version_range: '1.7'
-  version_type: 群组端>
-- description: "Bedrock 是 Minecraft PE 基岩版，也叫手机版，Bedrock Server 是 Mojang 官方提供的服务端。\
-    \ \t\t\tBedrock Server 不能安装插件，只能用于纯净游戏联机使用。"
+  version_type: 群组端
+- description: "Bedrock 是 Minecraft PE 基岩版，也叫手机版，Bedrock Server 是 Mojang 官方提供的服务端\n\nBedrock Server 不能安装插件，只能用于纯净游戏联机使用"
   image: /img/BedrockServer.png
   links:
     downloads:
@@ -78,10 +74,9 @@ servers:
     icon-website: https://www.minecraft.net
     icon-wiki: https://mojang.github.io/bedrock-protocol-docs/
   name: Bedrock Server
-  version_range: ''
-  version_type: "基岩端 \t\t\t\tAll"
-- description: "国内最早开发的高版本核心, 支持大部分 MOD 和插件同时稳定运行，目前已经和 LoliServer 融合，成为新一代的MOD端核心\
-    \ \t\t\t支持 Forge 模组和 Bukkit 插件"
+  version_range: 'All'
+  version_type: "基岩端"
+- description: "国内最早开发的高版本核心, 支持大部分 MOD 和插件同时稳定运行，目前已经和 LoliServer 融合，成为新一代的MOD端核心\n\n支持 Forge 模组和 Bukkit 插件"
   image: /img/Catserver.png
   links:
     downloads:
@@ -93,9 +88,9 @@ servers:
     icon-website: https://catmc.org/
     icon-telegram: https://t.me/CatServer
   name: Catserver/LoliServer
-  version_range: 1.18.2
-  version_type: "混合端  \t\t\t\t  \t\t\t\t1.12.2 | 1.16.5 |"
-- description: "Contigo 是 Thermos 的一个分支版本 \t\t\t支持 Forge 模组和 Bukkit 插件"
+  version_range: 1.12.2 | 1.16.5 | 1.18.2
+  version_type: "混合端 "
+- description: "Contigo 是 Thermos 的一个分支版本\n\n支持 Forge 模组和 Bukkit 插件"
   image: /img/Contigo.jpg
   links:
     downloads:
@@ -106,8 +101,7 @@ servers:
   name: Contigo
   version_range: 1.7.10
   version_type: 混合端
-- description: "Cauldron 官方由于 DMCA 版权纠纷已停止更新,建议使用 KCauldron 或 Thermos、Contigo 等后续维护版本，更稳定\
-    \ \t\t\t支持 Forge 模组和 Bukkit 插件"
+- description: "Cauldron 官方由于 DMCA 版权纠纷已停止更新,建议使用 KCauldron 或 Thermos、Contigo 等后续维护版本，更稳定\n\n支持 Forge 模组和 Bukkit 插件"
   image: /img/Contigo.jpg
   links:
     downloads:
@@ -117,7 +111,7 @@ servers:
   name: Cauldron/KCauldron
   version_range: 1.7.10
   version_type: 混合端
-- description: "老牌核心，支持大部分插件，功能比较完善，但容易出现一些性能问题。 \t\t\t支持 Bukkit 插件"
+- description: "老牌核心，支持大部分插件，功能比较完善，但容易出现一些性能问题\n\n支持 Bukkit 插件"
   image: /img/CraftBukkit.png
   links:
     downloads:
@@ -129,7 +123,7 @@ servers:
   name: Craft Bukkit
   version_range: 1.0.0 - 1.20.6
   version_type: 插件端
-- description: "基于 Bukkit 架构，在性能方面具有更大的优势。 \t\t\t支持 Bukkit 插件"
+- description: "基于 Bukkit 架构，在性能方面具有更大的优势\n\n支持 Bukkit 插件"
   image: /img/CubeRite.png
   links:
     downloads:
@@ -149,8 +143,7 @@ servers:
   name: DragonProxy
   version_range: ''
   version_type: 代理端
-- description: "Folia是PaperMC组织最新的项目，旨在实现真正的多线程和区域化心跳。 \t\t\t支持 Bukkit/Spigot/Paper\
-    \ 模组"
+- description: "Folia是PaperMC组织最新的项目，旨在实现真正的多线程和区域化心跳\n\n支持 Bukkit/Spigot/Paper 模组"
   image: /img/Folia.png
   links:
     downloads:
@@ -164,8 +157,7 @@ servers:
   name: Folia
   version_range: 1.19.4 - 1.20.6
   version_type: 插件端
-- description: "目前 Minecraft 的主流 API,目前有半数以上的模组都在使用 Forge ,以易于与 Minecraft Java Edition\
-    \ 的驳接。 \t\t\t支持 Forge 模组"
+- description: "目前 Minecraft 的主流 API,目前有半数以上的模组都在使用 Forge ,以易于与 Minecraft Java Edition 的驳接\n\n支持 Forge 模组"
   image: /img/Forge.jpg
   links:
     downloads:
@@ -181,8 +173,7 @@ servers:
   name: Forge
   version_range: 1.1 - 1.21
   version_type: 模组端
-- description: "Fabric是一个轻量级的MOD API，用于Minecraft1.14及以上版本，主要作者是asiekierka和modmuss50。\
-    \ \t\t\t支持 Fabric 模组"
+- description: "Fabric是一个轻量级的MOD API，用于Minecraft1.14及以上版本，主要作者是asiekierka和modmuss50\n\n支持 Fabric 模组"
   image: /img/Fabric.png
   links:
     downloads:
@@ -197,7 +188,7 @@ servers:
     icon-wiki: https://fabricmc.net/wiki/
   name: Fabric
   version_range: '1.14'
-  version_type: "模组端  \t\t\t\t  \t\t\t\t>"
+  version_type: "模组端"
 - description: Floodgate是Geyser官方的拓展插件,他能实现对于BE玩家的优化,包括但不限于:BE玩家强制进入正版登录服务器,皮肤显示,JE-BE玩家数据同步,BE原生菜单-BE
     Form调用API等
   image: /img/Floodgate.png
@@ -211,7 +202,7 @@ servers:
   name: Floodgate
   version_range: 1.20.80 - 1.21.3
   version_type: 代理端
-- description: "基于 Bukkit 架构，内置了 Sponge 支持的插件 \t\t\t支持 Bukkit/Spigot/Paper 插件"
+- description: "基于 Bukkit 架构，内置了 Sponge 支持的插件\n\n支持 Bukkit/Spigot/Paper 插件"
   image: /img/GlowStone.png
   links:
     downloads:
@@ -221,9 +212,9 @@ servers:
     icon-discord: https://discord.gg/TFJqhsC
     icon-wiki: https://glowstone.net/docs#developers
   name: GlowStone
-  version_range: '1.19'
-  version_type: "插件端  \t\t\t\t1.12.2 |"
-- description: "Geyser是一个代理服务,它允许基岩版用户加入到Java服务器中游玩 \t\t\t支持独立运行(就像开服软件一样)也支持以服务器插件的形式加载(只需下载相应的版本,Bukkit、BungeeCord、Sponge、Velocity等)"
+  version_range: '1.12.2 | 1.19'
+  version_type: "插件端"
+- description: "Geyser是一个代理服务,它允许基岩版用户加入到Java服务器中游玩\n\n支持独立运行(就像开服软件一样)也支持以服务器插件的形式加载(只需下载相应的版本,Bukkit、BungeeCord、Sponge、Velocity等)"
   image: /img/Floodgate.png
   links:
     downloads:
@@ -237,7 +228,7 @@ servers:
   name: Geyser
   version_range: 1.20.80 - 1.21.3
   version_type: 代理端
-- description: "一款开源的多线程 Minecraft 服务端，性能更强 \t\t\t支持 Bukkit 插件"
+- description: "一款开源的多线程 Minecraft 服务端，性能更强\n\n支持 Bukkit 插件"
   image: null
   links:
     downloads:
@@ -246,7 +237,7 @@ servers:
   name: Hose
   version_range: 1.11.2
   version_type: 插件端
-- description: BungeeCord的分支，基于原基础做了一些优化，包括性能的提升。
+- description: BungeeCord的分支，基于原基础做了一些优化，包括性能的提升
   image: /img/HexaCord.jfif
   links:
     downloads:
@@ -257,8 +248,7 @@ servers:
   name: HexaCord
   version_range: 1.8 - 1.20
   version_type: 群组端
-- description: "Leaves 是基于 Paper 的 Minecraft 服务端，旨在修复被破坏的原版特性。 \t\t\t支持 Bukkit/Spigot/Paper\
-    \ 插件"
+- description: "Leaves 是基于 Paper 的 Minecraft 服务端，旨在修复被破坏的原版特性\n\n支持 Bukkit/Spigot/Paper "
   image: /img/Leaves.png
   links:
     downloads:
@@ -270,7 +260,7 @@ servers:
     icon-wiki: https://docs.leavesmc.org/
   name: Leaves
   version_range: '1.21'
-  version_type: "插件端  \t\t\t\t  \t\t\t\t1.20.6 |"
+  version_type: "插件端 \n\n\t \n\n\t1.20.6 |"
 - description: Waterfall 的一个具有现代 Forge 支持的分支
   image: /img/lightfall.png
   links:
@@ -282,8 +272,7 @@ servers:
   name: lightfall
   version_range: 1.18 - 1.20
   version_type: 群组端
-- description: "允许用户加入 Lightfall 服务器。1.20.2 之后的版本不再需要此模块 \t\t\t将其与 https://github.com/ArclightPowered/lightfall\
-    \ 一起使用"
+- description: "允许用户加入 Lightfall 服务器1.20.2 之后的版本不再需要此模块\n\n将其与 https://github.com/ArclightPowered/lightfall 一起使用"
   image: /img/lightfall.png
   links:
     downloads:
@@ -292,10 +281,9 @@ servers:
     - https://github.com/ArclightPowered/lightfall-client/releases
     icon-GitHub: https://github.com/ArclightPowered/lightfall-client
   name: LightfallClient
-  version_range: 1.12.1
-  version_type: "群组端  \t\t\t\t1.16.X -"
-- description: "LightingLuminol 是一个基于Luminol的分支,具有许多有用的优化、可配置的原版特性和更多的API支持,目标是在Folia上运行更多Bukkit插件;此项目目前存在严重可能导致服务器崩溃的问题,请谨慎使用\
-    \ \t\t\t如没有特别需求,请使用稳定的Luminol服务端 \t\t\t支持 Bukkit/Spigot/Paper 插件"
+  version_range: 1.16.X - 1.12.1
+  version_type: "群组端"
+- description: "LightingLuminol 是一个基于Luminol的分支,具有许多有用的优化、可配置的原版特性和更多的API支持,目标是在Folia上运行更多Bukkit插件;此项目目前存在严重可能导致服务器崩溃的问题,请谨慎使用\n\n如没有特别需求,请使用稳定的Luminol服务端\n\n支持 Bukkit/Spigot/Paper 插件"
   image: /img/LightingLuminol.png
   links:
     downloads:
@@ -308,10 +296,9 @@ servers:
     icon-telegram: https://t.me/LuminolMC
     icon-wiki: https://docs.luminolmc.com/zh_Hans/
   name: LightingLuminol
-  version_range: 1.20.6
-  version_type: "插件端  \t\t\t\t \t\t\t\t1.20.4 |"
-- description: "Luminol 是基于 Folia 的 Minecraft 服务端，旨在优化、新增和修复被破坏的原版特性。 \t\t\t支持 Bukkit/Spigot/Paper\
-    \ 插件"
+  version_range: 1.20.4 | 1.20.6
+  version_type: "插件端"
+- description: "Luminol 是基于 Folia 的 Minecraft 服务端，旨在优化、新增和修复被破坏的原版特性\n\n支持 Bukkit/Spigot/Paper "
   image: /img/LightingLuminol.png
   links:
     downloads:
@@ -324,7 +311,7 @@ servers:
   name: Luminol
   version_range: 1.20.2 - 1.20.6
   version_type: 插件端
-- description: "基于 Pufferfish，拥有更强大的优化 \t\t\t支持 Bukkit/Spigot/Paper 插件"
+- description: "基于 Pufferfish，拥有更强大的优化\n\n支持 Bukkit/Spigot/Paper 插件"
   image: /img/Mirai.webp
   links:
     downloads:
@@ -334,8 +321,7 @@ servers:
   name: Mirai
   version_range: '1.19'
   version_type: 插件端
-- description: "Mohist是一个出色的Minecraft Forge服务器软件，实现了Bukkit、Spigot API。通过利用这个强大的组合，您可以创建一个高性能的Minecraft服务器，能够集成模组和插件，确保稳定性和最佳性能。\
-    \ \t\t\t支持 Forge 模组和 Bukkit/Spigot/Paper 插件"
+- description: "Mohist是一个出色的Minecraft Forge服务器软件，实现了Bukkit、Spigot API通过利用这个强大的组合，您可以创建一个高性能的Minecraft服务器，能够集成模组和插件，确保稳定性和最佳性能\n\n支持 Forge 模组和 Bukkit/Spigot/Paper 插件"
   image: /img/Mohist.webp
   links:
     downloads:
@@ -351,15 +337,14 @@ servers:
   name: Mohist
   version_range: 1.7.10 - 1.20.2
   version_type: 混合端
-- description: "Nukkit 由 Java 编写，拥有强大的多线程性能. \t\t\tNukkit 的开发者们是现在 SakuraFRP 的前身 NextCraft\
-    \ , NextCraft 是比简幻欢更早使用动态计费的服务商,不过可能由于过于良心,倒闭了"
+- description: "Nukkit 由 Java 编写，拥有强大的多线程性能.\n\nNukkit 的开发者们是现在 SakuraFRP 的前身 NextCraft, NextCraft 是比简幻欢更早使用动态计费的服务商,不过可能由于过于良心,倒闭了"
   image: /img/Nukkit.png
   links:
     icon-GitHub: https://github.com/Nukkit/Nukkit
   name: Nukkit
   version_range: ''
   version_type: 基岩端
-- description: "具有Nukkit一切优点/性质，更容易让开发人员解决任何问题，保持所有服务器的最新状态。 \t\t\tNukkitX使用与Nukkit的主存储库略有不同的API，与Nukkit的1.0.0相比，API版本是1.2.0。"
+- description: "具有Nukkit一切优点/性质，更容易让开发人员解决任何问题，保持所有服务器的最新状态\n\nNukkitX使用与Nukkit的主存储库略有不同的API，与Nukkit的1.0.0相比，API版本是1.2.0"
   image: /img/NukkitX.png
   links:
     downloads:
@@ -374,8 +359,7 @@ servers:
   name: NukkitX
   version_range: ''
   version_type: 基岩端
-- description: "Nemisys，可以配合SynapseAPI插件使用。适用于Nukkit或PM服务器。 \t\t\t如果你使用的是Nukkit服务器，Nemisys\
-    \ 是一个很好的选择。"
+- description: "Nemisys，可以配合SynapseAPI插件使用适用于Nukkit或PM服务器\n\n如果你使用的是Nukkit服务器，Nemisys 是一个很好的选择"
   image: /img/Nemisys.png
   links:
     downloads:
@@ -384,9 +368,7 @@ servers:
   name: Nemisys
   version_range: ''
   version_type: 群组端
-- description: "NeoForge 是 Minecraft Forge 的分支，在 2023 年 7 月 12 日，Forge 的原 Discord\
-    \ 被 cpw 重命名，用于新的项目：NeoForge。除了 LexManos，几乎所有 Minecraft Forge 团队成员都加入了 NeoForged\
-    \ 团队。 \t\t\t人话： 踢个人接着干 \t\t\t支持 Forge 模组"
+- description: "NeoForge 是 Minecraft Forge 的分支，在2023年7月12日，Forge 的原 Discord 被 cpw 重命名，用于新的项目：NeoForge除了 LexManos，几乎所有 Minecraft Forge 团队成员都加入了 NeoForged 团队\n\n支持 Forge 模组"
   image: /img/NeoForge.png
   links:
     downloads:
@@ -398,8 +380,7 @@ servers:
   name: NeoForge
   version_range: 1.20.1
   version_type: 模组端
-- description: "PowerNukkitX（简称PNX）是由包括BlocklyNukkit团队在内的中国Nukkit开发者们负责开发维护的Nukkit分支版本，修复了众多BUG，改善了性能，及时跟进新版本支持、支持1.19所有新方块和新物品、支持新版下界、支持史诗地形生成器(Terra)。\
-    \ \t\t\t在这些大更改的情况下，PNX仍然保持了良好的插件兼容性，Nukkit生态中的数千个插件仍然可以在PNX上运行。"
+- description: "PowerNukkitX（简称PNX）是由包括BlocklyNukkit团队在内的中国Nukkit开发者们负责开发维护的Nukkit分支版本，修复了众多BUG，改善了性能，及时跟进新版本支持、支持1.19所有新方块和新物品、支持新版下界、支持史诗地形生成器(Terra)\n\n在这些大更改的情况下，PNX仍然保持了良好的插件兼容性，Nukkit生态中的数千个插件仍然可以在PNX上运行"
   image: /img/PowerNukkitX.png
   links:
     downloads:
@@ -411,8 +392,7 @@ servers:
   name: PowerNukkitX
   version_range: ''
   version_type: 基岩端
-- description: "Spigot 的进一步优化版本，在相关算法方面，较 Spigot 有所提高，优化 TPS 等，支持 CraftBukkit 和 Spigot\
-    \ 插件，API 没有太大修改。 \t\t\t支持 Bukkit/Spigot/Paper 插件"
+- description: "Spigot 的进一步优化版本，在相关算法方面，较 Spigot 有所提高，优化 TPS 等，支持 CraftBukkit 和 Spigot ，API 没有太大修改\n\n支持 Bukkit/Spigot/Paper 插件"
   image: /img/Paper.png
   links:
     downloads:
@@ -427,8 +407,7 @@ servers:
   name: Paper
   version_range: 1.8.8 - 1.21
   version_type: 插件端
-- description: "PocketMine-MP 是一个用 PHP 开发的 Minecraft Bedrock 基岩版服务端，也是目前使用最为广泛的服务端之一。\
-    \ \t\t\t因为高可扩展性和插件编写起来相对简易，深受广大手机版服主喜爱。"
+- description: "PocketMine-MP 是一个用 PHP 开发的 Minecraft Bedrock 基岩版服务端，也是目前使用最为广泛的服务端之一\n\n因为高可扩展性和插件编写起来相对简易，深受广大手机版服主喜爱"
   image: /img/PocketMine.gif
   links:
     downloads:
@@ -439,10 +418,9 @@ servers:
     icon-discord: https://discord.gg/bmSAZBG
     icon-wiki: https://doc.pmmp.io/en/rtfd/installation.html
   name: PocketMine
-  version_range: 1.21.2
-  version_type: "基岩端  \t\t\t\t? -"
-- description: "Pufferfish是Paper的高性能分支，旨在提供企业功能并最大限度地提高性能。 \t\t\t支持 Bukkit/Spigot/Paper\
-    \ 插件"
+  version_range: ~ 1.21.2
+  version_type: "基岩端"
+- description: "Pufferfish是Paper的高性能分支，旨在提供企业功能并最大限度地提高性能\n\n支持 Bukkit/Spigot/Paper "
   image: /img/Pufferfish.png
   links:
     downloads:
@@ -454,10 +432,9 @@ servers:
     icon-discord: https://discord.gg/reZw4vQV9H
     icon-wiki: https://docs.pufferfish.host/
   name: Pufferfish
-  version_range: 1.20.4
-  version_type: "插件端  \t\t\t\t  \t\t\t\t1.17.1 | 1.18.2 | 1.19.4 |"
-- description: "Pufferfish+ 是 Pufferfish 的改进版,其中包括企业支持和其他异步功能,例如异步实体跟踪器和异步寻路系统。比 Pufferfish\
-    \ 更快 \t\t\t支持 Bukkit/Spigot/Paper 插件"
+  version_range: 1.17.1 | 1.18.2 | 1.19.4 | 1.20.4
+  version_type: "插件端"
+- description: "Pufferfish+ 是 Pufferfish 的改进版,其中包括企业支持和其他异步功能,例如异步实体跟踪器和异步寻路系统比 Pufferfish 更快\n\n支持 Bukkit/Spigot/Paper 插件"
   image: /img/Pufferfish.png
   links:
     downloads:
@@ -466,8 +443,8 @@ servers:
     icon-website: https://pufferfish.host/
     icon-wiki: https://docs.pufferfish.host/
   name: Pufferfish+
-  version_range: 1.20.4
-  version_type: "插件端  \t\t\t\t  \t\t\t\t1.18.2 | 1.19.4 |"
+  version_range: 1.18.2 | 1.19.4 | 1.20.4
+  version_type: "插件端"
 - description: 支持 Bukkit/Spigot/Paper 插件
   image: /img/Pufferfish.png
   links:
@@ -476,8 +453,8 @@ servers:
     - https://pufferfish.host/downloads
     icon-website: https://pufferfish.host/
   name: Pufferfish+ (Purpur)
-  version_range: 1.19.4
-  version_type: "插件端  \t\t\t\t  \t\t\t\t1.18.2 |"
+  version_range: 1.18.2 | 1.19.4
+  version_type: "插件端"
 - description: 支持 Bukkit/Spigot/Paper 插件
   image: /img/Purformance.png
   links:
@@ -488,7 +465,7 @@ servers:
   name: Purformance
   version_range: ''
   version_type: 插件端
-- description: "在 Tuinity 基础上进行更多优化的服务端，性能好 \t\t\t支持 Bukkit/Spigot/Paper 插件"
+- description: "在 Tuinity 基础上进行更多优化的服务端，性能好\n\n支持 Bukkit/Spigot/Paper 插件"
   image: /img/Purformance.png
   links:
     downloads:
@@ -503,8 +480,7 @@ servers:
   name: Purpur
   version_range: 1.14 - 1.21
   version_type: 插件端
-- description: "基于 PaperMC 的面向性能的 Minecraft Server 补丁发行版 \t\t\t支持 Bukkit/Spigot/Paper\
-    \ 插件"
+- description: "基于 PaperMC 的面向性能的 Minecraft Server 补丁发行版\n\n支持 Bukkit/Spigot/Paper "
   image: /img/Patina.png
   links:
     downloads:
@@ -514,8 +490,7 @@ servers:
   name: Patina
   version_range: 1.17 - 1.20.2
   version_type: 插件端
-- description: "Purpur 的一个面向性能的分支，旨在通过实现多线程和异步改进来提高实体密集型服务器的性能 \t\t\t支持 Bukkit/Spigot/Paper\
-    \ 插件"
+- description: "Purpur 的一个面向性能的分支，旨在通过实现多线程和异步改进来提高实体密集型服务器的性能\n\n支持 Bukkit/Spigot/Paper "
   image: /img/Petal.png
   links:
     downloads:
@@ -525,7 +500,7 @@ servers:
   version_range: 1.19 - 1.19.2
   version_type: 插件端
 - description: "Spigot 是 CraftBukkit 服务端之后的延续版本，比 CraftBukkit 优化了不少地方，支持 CraftBukkit\
-    \ 的插件，性能比 CraftBukkit 好很多，并且自带反作弊功能 \t\t\t支持 Bukkit/Spigot/Paper 插件"
+    \ 的插件，性能比 CraftBukkit 好很多，并且自带反作弊功能\n\n支持 Bukkit/Spigot/Paper 插件"
   image: /img/Spigot.png
   links:
     downloads:
@@ -537,11 +512,11 @@ servers:
     icon-website: https://www.spigotmc.org/
     icon-wiki: https://www.spigotmc.org/wiki/index/
   name: Spigot
-  version_range: ''
+  version_range: 'All'
   version_type: 插件端
 - description: "Sponge 是一个全新的服务端，支持 Sponge 的专用插件，可装 Mod，兼容性比 Cauldron 相比提高了不少，适合开\
-    \ MOD 服，支持的版本非常高，是目前支持 MOD 的服务端里兼容版本最高的服务端 \t\t\t但是 Sponge 本身不支持 Bukkit 插件（即使有兼容层，效果也不是很好，只能支持一般的插件），需要服务器的配置比较高，启动速度不佳\
-    \ \t\t\t支持 Forge 模组和 Sponge 专用插件"
+    \ MOD 服，支持的版本非常高，是目前支持 MOD 的服务端里兼容版本最高的服务端\n\n但是 Sponge 本身不支持 Bukkit 插件（即使有兼容层，效果也不是很好，只能支持一般的插件），需要服务器的配置比较高，启动速度不佳\
+    \\n\n支持 Forge 模组和 Sponge 专用插件"
   image: /img/spongie-mark.svg
   links:
     downloads:
@@ -557,7 +532,7 @@ servers:
   name: SpongeForge
   version_range: 1.8 - 1.20.6
   version_type: 混合端
-- description: "介绍 \t\t\t支持 Sponge 专用插件"
+- description: "支持 Sponge 专用插件"
   image: /img/spongie-mark.svg
   links:
     downloads:
@@ -570,7 +545,7 @@ servers:
   name: SpongeVanilla
   version_range: 1.8 - 1.21
   version_type: 插件端
-- description: "高度优化的Purpur分支,专注于稳定性和性能。 \t\t\t支持 Bukkit/Spigot/Paper 插件"
+- description: "高度优化的Purpur分支,专注于稳定性和性能\n\n支持 Bukkit/Spigot/Paper 插件"
   image: /img/Sugarcane.png
   links:
     downloads:
@@ -580,8 +555,7 @@ servers:
   name: Sugarcane
   version_range: 1.17.1 - 1.19
   version_type: 插件端
-- description: "Purpur的一个面向性能的分支，旨在通过实现多线程和异步改进来提高实体密集型服务器的性能 \t\t\t支持 Bukkit/Spigot/Paper\
-    \ 插件"
+- description: "Purpur的一个面向性能的分支，旨在通过实现多线程和异步改进来提高实体密集型服务器的性能\n\n支持 Bukkit/Spigot/Paper "
   image: /img/Sakura.webp
   links:
     downloads:
@@ -590,7 +564,7 @@ servers:
   name: Sakura
   version_range: 1.19.2
   version_type: 插件端
-- description: "继 Cauldron 和 KCauldron 之后的续命版本 \t\t\t支持 Forge 模组和 Bukkit 插件"
+- description: "继 Cauldron 和 KCauldron 之后的续命版本\n\n支持 Forge 模组和 Bukkit 插件"
   image: /img/Thermos.png
   links:
     downloads:
@@ -611,7 +585,7 @@ servers:
   name: Travertine
   version_range: ''
   version_type: 群组端
-- description: "在 Paper 基础上进行更多优化的服务端 \t\t\t支持 Bukkit/Spigot/Paper 插件"
+- description: "在 Paper 基础上进行更多优化的服务端\n\n支持 Bukkit/Spigot/Paper 插件"
   image: /img/Tuinity.webp
   links:
     downloads:
@@ -620,10 +594,7 @@ servers:
   name: Tuinity
   version_range: ''
   version_type: 插件端
-- description: "Uranium端（不断更新）是kc（停止更新）以及Thermos（停止更新）的优化以及后续版本，修复了更多的mod以及服务器bug，稳定性和适用性更强，并且是国人制作的服务端，更适合中国的腐竹。\
-    \ \t\t\tUranium 是一款基于 KCauldron 进行大量修复以及优化的服务端，并且整合了部分 Thermos 对服务端进行的修复，能够兼容\
-    \ Bukkit, Spigot 插件以及 1.7.10 的 Forge mod，并没有计划向高版本兼容 \t\t\t支持 Forge 模组和 Bukkit\
-    \ 插件"
+- description: "Uranium端（不断更新）是kc（停止更新）以及Thermos（停止更新）的优化以及后续版本，修复了更多的mod以及服务器bug，稳定性和适用性更强，并且是国人制作的服务端，更适合中国的腐竹\n\nUranium 是一款基于 KCauldron 进行大量修复以及优化的服务端，并且整合了部分 Thermos 对服务端进行的修复，能够兼容 Bukkit, Spigot 插件以及 1.7.10 的 Forge mod，并没有计划向高版本兼容\n\n支持 Forge 模组和 Bukkit "
   image: /img/Uranium.png
   links:
     downloads:
@@ -635,8 +606,7 @@ servers:
   name: Uranium
   version_range: 1.7.10
   version_type: 混合端
-- description: "官方提供的原版游戏服务器核心，它是最基本的服务器核心，可以提供原版游戏的所有功能。 \t\t\tVanilla有着简单的配置方式和不错的稳定性，但功能不够强大，无法满足大多数服务器的需求。\
-    \ \t\t\t不支持插件和模组"
+- description: "官方提供的原版游戏服务器核心，它是最基本的服务器核心，可以提供原版游戏的所有功能\n\nVanilla有着简单的配置方式和不错的稳定性，但功能不够强大，无法满足大多数服务器的需求\n\n不支持插件和模组"
   image: /img/BedrockServer.png
   links:
     downloads:
@@ -648,7 +618,7 @@ servers:
   name: Vanilla
   version_range: 1.2.5 - 1.21
   version_type: 纯净端
-- description: "Velocity 是一个高性能的Minecraft服务器反向代理解决方案，由 PaperMC 团队开发。 \t\t\t它支持1.7.2到最新版本的Minecraft服务器，并且为高版本服务端提供了更高效的传输协议。"
+- description: "Velocity 是一个高性能的Minecraft服务器反向代理解决方案，由 PaperMC 团队开发\n\n它支持1.7.2到最新版本的Minecraft服务器，并且为高版本服务端提供了更高效的传输协议"
   image: /img/Velocity.png
   links:
     downloads:
@@ -660,8 +630,8 @@ servers:
     icon-wiki: https://docs.papermc.io/velocity
   name: Velocity
   version_range: 1.7.2
-  version_type: "群组端  \t\t\t\t>"
-- description: "Waterfall 是 BungeeCord 的一个分支，由 PaperMC 团队开发 \t\t\t它提供了更友好的控制台输出和更个性化的配置选项"
+  version_type: "群组端>"
+- description: "Waterfall 是 BungeeCord 的一个分支，由 PaperMC 团队开发\n\n它提供了更友好的控制台输出和更个性化的配置选项"
   image: /img/Waterfall.png
   links:
     downloads:
@@ -674,8 +644,7 @@ servers:
   name: Waterfall
   version_range: 1.11 - 1.21
   version_type: 群组端
-- description: "Yatopia结合了许多插件和优化模组的代码，以及许多独特的优化 \t\t\t支持 Bukkit/Spigot/Paper 插件 yatopia\
-    \ 官网域名疑似被投毒,请不要轻易相信其中的内容"
+- description: "Yatopia结合了许多插件和优化模组的代码，以及许多独特的优化\n\n支持 Bukkit/Spigot/Paper 插件"
   image: /img/yatopia.png
   links:
     downloads:
@@ -686,8 +655,7 @@ servers:
   name: yatopia
   version_range: 1.15.2 - 1.17
   version_type: 插件端
-- description: "Youer是一个出色的NeoForge服务器软件，实现了Bukkit、Spigot API \t\t\t支持 Forge/NeoForge\
-    \ 模组和 Bukkit/Spigot/Paper 插件"
+- description: "Youer是一个出色的NeoForge服务器软件，实现了Bukkit、Spigot API\n\n支持 Forge/NeoForge 模组和 Bukkit/Spigot/Paper 插件"
   image: /img/Mohist.webp
   links:
     downloads:
